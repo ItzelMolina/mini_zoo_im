@@ -1,10 +1,10 @@
 //variable que contiene todo los elementos con la clase madagascar
 var image = document.getElementsByClassName('madagascar');
 
-//variable que contiene el elemento alcual se le aplicará el evento
+//variable que contiene el elemento al cual se le aplicará el evento
 var select = document.getElementById('select');
 
-//funcion a ejecutar cuando el usuario selecicone una opcion <option>
+//funcion a ejecutar cuando el usuario selecicone una opcion 
 select.onchange = function() {
     //guardar en variable items las veces en las que se itera por images
     for (var i = 0; i < image.length; i++) {
